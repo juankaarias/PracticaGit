@@ -7,3 +7,20 @@
 body{
 	background-color: lightblue;
 }
+.menu{
+	display: flex;
+	justify-content: center;
+	background-color: aquamarine;
+}
+.item{
+	margin: 10px;
+}
+.contenedor_imagen{
+	display: flex;
+	justify-content: center;
+	padding: 20px;
+}
+.imagen{
+	width: 200px;
+	
+}
