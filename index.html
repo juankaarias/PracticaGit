@@ -3,23 +3,30 @@
 <head>
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=no">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="css/estilos.css">
   <title>Practica Git</title>
 </head>
 <body>
-  <header>
-    <h1>Bienvenidos a Paractica con Git Sena.</h1>
-    <ul class="menu">
-      <li class="item"><a href="#">Inicio</a></li>
-      <li class="item"><a href="#">Quienes Somos</a></li>
-      <li class="item"><a href="#">Portafolio</a></li>
-      <li class="item"><a href="#">Contáctanos</a></li>
-      <li class="item"><a href="#">Inicio de Sesión</a></li>
-    </ul>
+  <header class="header">
+    <section class="header__contenedor">
+      <img  class="contenedor__logo" src="images/Sena.svg" alt="Logo Sena">
+      <h1 class="contenedor__titulo">Bienvenidos a Paractica con Git Sena</h1>
+    </section>
+    <nav class="nav">
+      <ul class="nav__menu">
+        <li class="menu__item"><a class="item__link" href="#">Inicio</a></li>
+        <li class="menu__item"><a class="item__link" href="#">Quienes Somos</a></li>
+        <li class="menu__item"><a class="item__link" href="#">Portafolio</a></li>
+        <li class="menu__item"><a class="item__link" href="#">Contáctanos</a></li>
+      </ul>
+      <ul class="nav__login">
+        <li class="menu__item"><a class="item__link" href="#">Inicio de Sesión</a></li>
+      </ul>
+    </nav>
   </header>
   <section>
-    <div class="contenedor_imagen">
+    <div class="contenedor__imagen">
       <img class="imagen" src="images/operadora.png" alt="operadora">
     </div>
     <h2>¿Deseas que te llamamos?</h2>
